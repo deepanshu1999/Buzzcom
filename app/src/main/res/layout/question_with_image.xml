@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question_with_image_toprellayout"
+        android:background=" #f50057">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/badoo"
+            android:layout_margin="10dp"
+            android:id="@+id/question_with_image_icon1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deepanshu Aggarwal"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/question_with_image_icon1"
+            android:layout_marginLeft="15dp"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/question_with_image_labelname"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posted in Engifest 2K18"
+            android:id="@+id/question_with_image_threadname"
+            android:layout_below="@id/question_with_image_labelname"
+            android:layout_toRightOf="@id/question_with_image_icon1"
+            android:layout_marginLeft="20dp"/>
+
+
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/badoo"
+        android:id="@+id/question_with_image_main_text_image"
+        android:layout_below="@id/question_with_image_toprellayout"
+        android:layout_marginTop="10dp"/>
+    <at.blogc.android.views.ExpandableTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/question_with_image_maintext"
+        android:layout_below="@id/question_with_image_main_text_image"
+        android:maxLines="3"
+        android:text="Delhi Technological University (DTU), formerly known as Delhi College of Engineering, is an engineering university located in New Delhi, India. It is one of the oldest engineering colleges in India and Delhi's first engineering college. It was established in 1941 as Delhi Polytechnic and was under the control of the Government of India. The college has been under the government of the National Capital Territory of Delhi since 1963 and was affiliated with the University of Delhi from 1952 to 2009. In 2009, the college was given state university status, thus changing its name to Delhi Technological University. Till the year 2009, DCE shared its admission procedure and syllabus for various B.E courses with their other branch known as Netaji Subhas Institute of Technology, formerly DIT, which were prescribed by Faculty of Technology, University of Delhi. [2]"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Read more"
+        android:gravity="right"
+        android:textColor="#ff5656"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@id/question_with_image_maintext"
+        android:background="@drawable/gradient"
+        android:id="@+id/question_with_image_readmore"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:layout_below="@id/question_with_image_maintext"
+        android:layout_margin="5dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.9"
+            android:layout_margin="5dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:src="@drawable/like"
+                android:id="@+id/question_with_image_likeimage"
+                android:layout_weight="0.5"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="21 Support"
+                android:id="@+id/question_with_image_liketext"
+                android:gravity="center"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:src="@drawable/answer"
+                android:id="@+id/question_with_image_commentimage"
+                android:layout_weight="0.5"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:text="10 Answers"
+                android:id="@+id/question_with_image_commenttext"
+                android:gravity="center"
+                android:layout_weight="1"/></LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

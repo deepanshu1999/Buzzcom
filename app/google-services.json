@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "46817937978",
+    "firebase_url": "https://buzzcom-9c1bf.firebaseio.com",
+    "project_id": "buzzcom-9c1bf",
+    "storage_bucket": "buzzcom-9c1bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46817937978:android:29deec737798dfd7",
+        "android_client_info": {
+          "package_name": "com.summerproject.myproj.buzzcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46817937978-hko2m2dgpsp13tb4ctbn19cmcg4secji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtTAOzdwh71OO35Ka9vN-B1wTJlnHYaBM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
