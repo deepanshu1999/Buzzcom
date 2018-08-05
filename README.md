@@ -2,7 +2,7 @@
 
 
 
-Buzzcomm is an Organisation Level social media platform where one can know recent happenings in any Institute,Society or Company.
+Buzzcom is an Organisation Level social media platform where one can know recent happenings in any Institute,Society or Company.
 One can:
   - Post Details of events
   - Can ask Questions among fellows
