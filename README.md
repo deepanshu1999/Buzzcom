@@ -41,7 +41,7 @@ Email at deepanshu4929@gmail.com
 License
 ----
 
-Open Sourcd
+Open Source
 
 
 **Free Software, Hell Yeah!**
